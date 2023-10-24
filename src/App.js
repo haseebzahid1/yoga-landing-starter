@@ -15,6 +15,7 @@ import Faq from './components/Faq';
 import Join from './components/Join';
 import Footer from './components/Footer';
 
+
 const App = () => {
   // aos initialization
   Aos.init({
@@ -32,7 +33,8 @@ const App = () => {
       <Faq />
       <Join />
       <Footer />
-      {/* <div className='h-[4000px]'></div> */}
+    
+      <div className='h-[4000px]'></div>
     </div>
   );
 };

@@ -25,9 +25,9 @@ const Banner = () => {
           </div>
             {/*  image */}
          <div className="bg-blue-300 w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1"
-         data-aos='fade-right' data-aos-delay='900'
+        //  data-aos='fade-right' data-aos-delay='900'
          >
-          image
+          {/* image */}
         </div>
         </div>
       
