@@ -3,7 +3,7 @@ import {join} from '../data'
 
 const Join = () => {
   // destructure join data
-  const { image, title, subtitle, btnText } = join
+  const { image, subtitle, btnText } = join
   return (
     <section className='bg-neutral-500 min-h-[537px] '>
       <div className='container mx-auto'>
