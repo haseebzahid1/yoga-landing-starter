@@ -8,7 +8,7 @@ const Accordion = ({ accordion }) => {
   const { question, answer } = accordion;
 
   return (
-    <div  onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">
+    <div onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">
       <div className="bg-white border rounde-sm">
         <div className="min-h-[60px] flex items-center justify-between px-[30px]">
           <h6 className="h6">{question}</h6>
